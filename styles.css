@@ -1,0 +1,122 @@
+body {
+  font-family:'Teko', sans-serif;
+  text-align: center;
+}
+h1, h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+.navbar {
+  padding: 0 0 0 4.5rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.title-heading {
+  z-index: 1;
+  padding: 0 5%;
+}
+
+.video-container {
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.none-image {
+  display: none;
+}
+
+.title-midle {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 7% 15%;
+  margin: 7% 15% 15%;
+}
+.download-button {
+  color: #fff;
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.features-box {
+  padding: 1.5rem;
+  text-align: center;
+}
+.icon {
+  margin: 1rem;
+}
+#testimonial {
+  padding: 7% 15%;
+  background-color: #005792;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #005792;
+  text-align: center;
+  padding-bottom: 3%
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#download {
+  padding: 50px;
+  text-align: center;
+}
+.download-column {
+  padding: 3% 2%;
+}
+#footer {
+  padding: 7% 15%;
+  background-color: #005792;
+  color: #fff;
+  text-align: center;
+}
+.icon-footer {
+  color: #fff;
+  margin: 10px 15px;
+}
+/* mobile version */
+
+@media (max-width: 1028px){
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  .video-container {
+    display: none;
+  }
+  .none-image {
+    display:block;
+    position: absolute;
+    z-index: -1;
+  }
+  .title-midle{
+    z-index: 1;
+    position: block;
+  }
+  .btn {
+    display: inline-block;
+    z-index: 1;
+  }
+}
